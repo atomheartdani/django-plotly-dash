@@ -89,6 +89,13 @@ DATABASES = {
 }
 
 
+# Authentication
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = "login"
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
+
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
