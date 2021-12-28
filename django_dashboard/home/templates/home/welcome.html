@@ -30,5 +30,16 @@
             {{ plot | safe }}
         </div>
     </div>
+    <div class="row justify-content-center">
+        <div class="card bg-dark text-white text-center" style="width: 25rem;">
+            <img class="card-img" src="{% static 'img/weird.png' %}">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Weird App</h5>
+              <p class="card-text">Click on the button to go to the weird app</p>
+              <a href="{% url 'weird' %}" class="btn btn-primary">Let's go!</a>
+            </div>
+          </div>
+    </div>
 </div>
+
 {% endblock %}

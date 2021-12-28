@@ -28,3 +28,6 @@ def index(request):
     }
 
     return render(request, 'home/welcome.html', context)
+
+def weird(request):
+    return render(request, 'home/weirdDash.html')

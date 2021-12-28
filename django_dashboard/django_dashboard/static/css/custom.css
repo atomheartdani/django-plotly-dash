@@ -1,0 +1,7 @@
+.card-img-overlay {
+    opacity: 0%;
+}
+
+.card-img-overlay:hover {
+    opacity: 100%;
+}
