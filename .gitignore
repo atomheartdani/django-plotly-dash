@@ -7,9 +7,6 @@ db.sqlite3
 media
 django_dashboard/static
 
-# Virtual Environment #
-venv
-
 # Backup files # 
 *.bak 
 
