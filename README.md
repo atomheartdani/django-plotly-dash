@@ -14,8 +14,7 @@ If you already have postgres or redis, be sure to setup their location in the `d
 
 
 # First time install
-1) Create a `.env` file in `$project_repository/django_dashboard` and put a django secret key inside it like this:\
-`SECRET_KEY = 'this-is-my-awesome-django-secret-key'`
+1) Create a `.env` file in `$project_repository/django_dashboard` using the `.env_template` file provided and edit all the fields in accordance to you environment
 2) Open a cli in $project_repository
 3) Create and activate a virtual environment (optional):\
 `python -m venv venv`\
