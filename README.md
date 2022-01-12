@@ -10,8 +10,6 @@ You should have a postgres database and a redis service. If you don't have them,
 
 Unless you are running a test, you should definitely change that default "password"
 
-If you already have postgres or redis, be sure to setup their location in the `django_dashboard/django_dashboard/settings.py` file
-
 
 # First time install
 1) Create a `.env` file in `$project_repository/django_dashboard` using the `.env_template` file provided and edit all the fields in accordance to you environment
