@@ -14,9 +14,17 @@ Unless you are running a test, you should definitely change that default "passwo
 # First time install
 1) Create a `.env` file in `$project_repository/django_dashboard` using the `.env_template` file provided and edit all the fields in accordance to you environment
 2) Open a cli in $project_repository
+
+### Running with docker
+3) Choose a fancy name for your image and container (ie "django") and run the following commands:\
+`docker build -t django -f ./docker/Dockerfile .`\
+`docker run -d --name django -p:8000:8000 django`
+
+### Running without docker
 3) Create and activate a virtual environment (optional):\
 `python -m venv venv`\
-`venv/Scripts/activate`
+`venv/Scripts/activate` (on Windows)\
+`source venv/bin/activate` (on Unix/MacOS)
 4) Run the following commands:\
 `python -m pip install -r requirements.txt`\
 `python manage.py collectstatic`\
